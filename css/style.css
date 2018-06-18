@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Topnav bar */
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .topnav a.login-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+/* Nike image */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 125px 125px 50px 125px;
+}
+.image-container img
+{
+  max-width:100%;
+  max-height:100%;
+}
+
+/* Search bar */
+form {
+  margin: auto;
+  padding: 0px 50px 50px 50px;
+  white-space: nowrap;
+}
+input {
+  width: 240px;
+}
+.full-search-box {
+  display: inline-block;
+  width: 100%;
+}
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid #1e90ff;
+  background-color:#1e90ff;
+  color:#ffffff;
+  width: 80px;
+}
+.button:hover  {
+  background-color:#ffffff;
+  color:#1e90ff;
+}
